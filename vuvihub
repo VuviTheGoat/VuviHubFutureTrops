@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/VuviTheGoat/VUVILIBRARY/main/Library"))()
+
+local window = Library.new("VuviHub")
+
+window:LockScreenBoundaries(false)
+
+local tab = window:Tab("FutureTops")
+
+local section = tab:Section("Main")
+
+
+section:Button("Esp", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/s7viVmDR"))()
+end)
+
+section:Button("Aimbot", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ygp8Enye"))()
+end)
